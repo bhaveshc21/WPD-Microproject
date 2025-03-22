@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+    
+    body {
+            font-size: 24px;
+            font-family: 'Poppins', sans-serif;
+        }
+    .heading {
+        background-color: #f5b041 ; 
+        padding: 2px 5px;
+    }
+
+    .signup-container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+    }
+    .signup{
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+</head>
+<body bgcolor="#cacfd2">
+   
+
+    <center><h2>SignUp</h2></center>
+
+    <center><div class="signup-container" align="left">
+        <h3>SignUp to continue</h3>
+        <form action="/submit_form" method="POST">
+          <label for="name">Full Name: </label><br><br>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email: </label><br><br>
+          <input type="email" id="email" name="email" required><br><br>
+    
+          <label for="password">Password</label><br><br>
+          <input type="password" id="password" name="password" required><br><br>
+    
+          <input type="submit" value="SignUp"><br>
+        </form>
+        <div class="signup"><pre><b>Already have an account? <a href="login.html">Login</b></a></pre></div>
+      </div></center><br><br>
+
+      <div align="left"><a href="index.html">Back</a></div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+
+<html>
+<head>
+    <title>Feedback Form</title>
+    <style>
+        body {
+                font-size: 24px;
+                font-family: 'Poppins', sans-serif;
+            }
+    </style>
+</head>
+<body bgcolor="#cacfd2">
+
+    <h2><span class="heading">Feedback Form</span></h2><br>
+
+    <form>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+         <label for="contact">Contact Number: </label><br>
+         <input type="tel" id="contact" name="contact" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="comments">Your Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <label>Rating (1 to 5):</label><br>
+        <input type="radio" id="rating1" name="rating" value="1">
+        <label for="rating1">1</label><br>
+        <input type="radio" id="rating2" name="rating" value="2">
+        <label for="rating2">2</label><br>
+        <input type="radio" id="rating3" name="rating" value="3">
+        <label for="rating3">3</label><br>
+        <input type="radio" id="rating4" name="rating" value="4">
+        <label for="rating4">4</label><br>
+        <input type="radio" id="rating5" name="rating" value="5">
+        <label for="rating5">5</label><br><br>
+
+        <button type="submit"><a href="feedback_submit.html">Submit Feedback</a></button>
+    
+    </form>
+    </body>
+ </html>
